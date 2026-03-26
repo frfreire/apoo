@@ -1,0 +1,7 @@
+package br.unicesumar.financas;
+
+public interface IConta {
+
+    public void depositar(double valor);
+    public void sacar(double valor);
+}
